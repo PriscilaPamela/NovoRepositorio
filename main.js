@@ -1,3 +1,6 @@
-let a = 5.5
-let result = Math.ceil(a)
-console.log(result)
+function changeBackgroundColor() {
+    let colors = ['red', 'blue', 'orange', 'yellow', 'green', 'pink']
+    let randomColor = colors[Math.floor(Math.random() * colors.length)]
+    document.body.style.backgroundColor = randomColor
+}
+
