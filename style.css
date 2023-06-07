@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(235, 239, 244);
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+
+.projetoBackgrond{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+
+}
+
+.btnTrocaCor {
+    border-radius: 5px;
+    background-color: rgb(13, 0, 97);
+    color:aqua;
+    padding: 10px 40px;
+}
+
+.adivinhe-numero{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#adivinhe{
+   border-radius: 10px;
+   padding: 10px;
+}
+
+#mensagem{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.text-adivinhe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    text-align: center;
+}
+
+.btn-adivinhe{
+    border-radius: 5px;
+    background-color: rgb(13, 0, 97);
+    color:aqua;
+    padding: 10px 40px;
+}
