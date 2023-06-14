@@ -1,26 +1,65 @@
+/*Titulo da Pagina*/
+h1{
+    padding: 20px;
+}
+/* Body */
 body{
     background-color: rgb(235, 239, 244);
     text-align: center;
 }
 
-h1{
-    padding: 20px;
+/* Projeto calculadora */
+#userNum1{
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 10px;
+}
+#userNum2{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
-.projetoBackgrond{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 50px;
-
-}
-
-.btnTrocaCor {
+#calcular{
     border-radius: 5px;
     background-color: rgb(13, 0, 97);
     color:aqua;
     padding: 10px 40px;
 }
+#operador{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
 
+#resultadoDiv{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: blue;
+}
+/* Projeto checagem de idade */
+.checagem-idade{
+    padding: 40px;
+}
+#check-button{
+    border-radius: 5px;
+    background-color: rgb(13, 0, 97);
+    color:aqua;
+    padding: 10px 40px;
+}
+#idade-input{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+ }
+/* Titulos dos projetos */
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* Projeto Adivinhe o numero */
 .adivinhe-numero{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +69,7 @@ h1{
 #adivinhe{
    border-radius: 10px;
    padding: 10px;
+   margin: 10px;
 }
 
 #mensagem{
@@ -49,5 +89,20 @@ h1{
     border-radius: 5px;
     background-color: rgb(13, 0, 97);
     color:aqua;
+    
     padding: 10px 40px;
+}
+/* Projeto trocar a cor de fundo */
+.projetoBackgrond{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+}
+
+.btnTrocaCor {
+    border-radius: 5px;
+    background-color: rgb(13, 0, 97);
+    color:aqua;
+    padding: 10px 20px;
 }
