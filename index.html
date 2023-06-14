@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Projeto Background</h1>
-    <p>Click no botão abaixo para trocar a cor de fundo</p>
-    <button onclick="changeBackgroundColor()">Trocar Cor</button>
+    <h1>Projetos Javascript Udemy</h1>
+    <!-- Projeto Calculadora -->
+    <div>
+        <h2>P22 - Projeto Calculadora</h2>
+        <input type="text" id="userNum1" placeholder="Insira o Primeiro numero">
+        <input type="text" id="userNum2" placeholder="Insira o Segundo Numero">
+        <select name="" id="operador">
+            <option value="+">Adição (+)</option>
+            <option value="-">Subtração (-)</option>
+            <option value="*">Multiplicação (*)</option>
+            <option value="/">Divisão (/)</option>
+        </select>
+        <button id="calcular">Calcular</button>
+        <div id="resultadoDiv"></div>
+    </div>
+    <!-- Projeto checagem de idade -->
+    <div class="checagem-idade">
+        <h2>P21 - Checagem de idade </h2>
+        <p>Qual a sua idade?</p>
+        <input type="text" id="idade-input">
+        <button id="check-button">Check</button>
+    </div>
+    <!-- Projeto Adivinhe o numero: -->
+    <div onsubmit="return verificarCampo">
+        <h2 class="adivinhe-numero">P19 - Projeto Adivinhe o Numero</h2>
+        <p class="text-adivinhe">Adivinhe um numero entre 1 e 100</p>
+        <input type="number" name="adivinhe" id="adivinhe" required>
+        <button class="btn-adivinhe" onclick="checkAdivinhe()">Check</button>
+        <p id="mensagem"></p>
+    </div>
+    <!-- Projeto trocar a cor do fundo -->
+    <div class="projetoBackgrond">
+        <h2 class="troca-cor">P18 - Projeto troca cor</h2>
+        <p>Click no botão abaixo para trocar a cor de fundo</p>
+        <button class="btnTrocaCor" onclick="changeBackgroundColor()">Trocar Cor</button>
+    </div>
     <script src="main.js"></script>
 </body>
+
 </html>
